@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三角盒子</title>
+	<style>
+		.square{
+			width: 200px;
+			height: 100px;
+			position: relative;
+			background-color: #900;
+			margin: 100px;
+			border-radius: 10px;
+		}
+		.arrow{
+			width: 0;
+			height: 0;
+			border-width: 30px;
+			border-style: dashed dashed solid dashed;
+			border-color: transparent transparent #900 transparent;
+			position: absolute;
+			top: -60px;
+			left: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div class="square">
+		<div class="arrow"></div>
+	</div>
+</body>
+</html>
