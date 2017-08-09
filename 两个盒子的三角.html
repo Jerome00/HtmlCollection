@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>两个盒子的三角</title>
+	<style>
+		i{
+			position: relative;
+			display: block;
+			margin: 100px;
+		}
+		em,span{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-width: 5px;
+			border-style: dashed dashed dashed solid;
+			border-color: transparent transparent transparent #900;
+			top: 0;
+			left: 0;
+		}
+		span{
+			border-left-color: #fff;
+			left: -2px;
+		}
+	</style>
+</head>
+<body>
+	<i>
+		<em></em>
+		<span></span>
+	</i>
+</body>
+</html>
